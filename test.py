@@ -1,22 +1,22 @@
-# from array import *
+# arr = []
+# def missing_number(arr, n):
+#     for i in range(0,n):
+#         if arr[i] != i:
+#             print(i)
 
-# my_arr = array('i',[1,2,3,4,5])
-# print(my_arr)
+# n = int(input("Enter the number of elements: "))
 
-# for i in my_arr:
-#     print(i)
+# for i in range (1,n+1):
+#     arr.append(i)
+    
+# missing_number(arr,n)
 
-# print(my_arr[3])
 
-# my_arr.append(6)
-# print(my_arr)
+# arr = ["😂","😍"]
+# print(arr)
 
-# my_arr.insert(2,11)
-# print(my_arr)
+def max_product(arr):
+    arr.sort(reverse=True)
+    return arr[0]*arr[1]
 
-# my_arr1 = array('i', [10,11,12])
-# my_arr.extend(my_arr1)
-# print(my_arr)
-
-import numpy as np
-
+print(max_product([1,4,2,5,3]))
